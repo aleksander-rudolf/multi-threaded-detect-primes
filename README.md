@@ -1,10 +1,11 @@
-* The program takes a single argument - number of threads that should be used
-* to speed up the computation.
-* The program then reads in positive integers in range (2 .. 2^63-1) from standard input
-* For each number on input:
-  * if the number is not prime, it is ignored
-  * if the number is prime, it is printed to standard output
+# Multi Threaded Detect Primes
 
+The program takes a single argument - number of threads that should be used to speed up the computation.
+The program then reads in positive integers in range (2 .. 2^63-1) from standard input
+
+For each number on input:
+  - if the number is not prime, it is ignored
+  - if the number is prime, it is printed to standard output
 
 To compile all code, type:
 ```
